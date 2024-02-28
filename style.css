@@ -1,0 +1,47 @@
+body{
+    background-color: #6b7280;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: #383d46;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+    line-height: 100px;
+}
+
+.o::after{
+    content: "\2716";
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;
+    bottom:0;
+    color: red;
+    font-size: 35px;
+}
+
+.x{
+    position: relative;
+    line-height: 100px;
+}
+
+.x::after{
+    content: "\2714";
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;
+    bottom:0;
+    color: white;
+    font-size: 35px;
+}
